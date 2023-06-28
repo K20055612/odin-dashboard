@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -145,6 +147,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 5fr;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -279,4 +282,23 @@ body {
 
 .trending-entry {
     padding: 10px;
+}
+
+.icon {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.icon svg {
+    height: auto;
+    width: 25px;
+    fill: white;
+}
+
+.sidebar__title {
+    align-self: baseline;
+    font-size: 30px;
 }
